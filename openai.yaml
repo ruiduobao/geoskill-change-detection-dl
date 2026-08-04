@@ -1,0 +1,15 @@
+name: geoskill-change-detection-dl
+display_name: 深度学习变化检测
+description: |
+  Siamese 全卷积网络(FC-Siam-diff 风格)双时相变化检测：GPU 训练/推理，输出变化概率、二值变化图与变化图斑
+version: 0.1.0
+author: Mavis
+entrypoint: geoskill-change-detection-dl.py
+runtime: python>=3.9
+tags:
+  - deep-learning
+  - extraction
+  - gis
+  - gpu
+  - remote-sensing
+  - time-series
